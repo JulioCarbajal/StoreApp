@@ -1,0 +1,20 @@
+{
+  "name": "node-webkit-express",
+  "version": "0.0.2",
+  "description": "node-webkit-express is a very small nodejs app that runs expressjs in node-webkit.",
+  "main": "index.html",
+  "window": {
+    "width": 600,
+    "height": 750,
+    "title": "m-cms edit",
+    "toolbar": false
+  },
+  "scripts": {
+    "start": "nodewebkit"
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "stylus": "^0.49.3",
+    "swig": "^1.4.2"
+  }
+}
